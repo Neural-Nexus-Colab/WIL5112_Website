@@ -1,0 +1,289 @@
+<!--
+    Code Attribution
+    Title: Web Development (Introduction) [WEDE5020]
+    Author: The Independent Institute of Education (Pty) Ltd
+    Date Accessed: 13 August 2025
+    Date Created: 2025
+    Version: Not specified
+    Availability: https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7B2D7589E9-374B-43DE-9596-EF35D83EBD02%7D&file=WEDE5020MM.docx&action=default&mobileredirect=true
+-->
+<!DOCTYPE html><!--Lets the browser know which version of html the document uses-->
+<html lang="en"><!--Sets the attribute lang(language) to english-->
+<head><!--Content in the head is used to tell browser important information on the page-->
+    <meta charset="UTF-8"><!-- meta elements contains a variety of different attributes to communicate important information to the browser and charset is an attribute that tells the style of keyboard used to code -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--viewport indicates that the browser should not zoom in on the page and should respect any CSS response code-->
+    <title>Empowering the Nation</title><!-- title is not displayed on the page itself but its what shows on the browser tab and in the search listings on google and other search engines  -->
+</head>
+<body><!-- Holds all the content for the display on the page itself-->
+    <!-- Header -->
+     <!-- TODO: Add comments/code attribution and edit-->
+    <header><!-- This element holds introductory content like navigation, logos or headings -->
+        <div class="header-container">
+<!-- Code Attribution
+    Title: Divs & Spans
+    Author: HTML and CSS Guidebook
+    Date Accessed: 14 August 2025
+    Date published: 2024
+    Availability: https://htmlandcssguidebook.com/html/div-span/
+-->
+
+            <div class="logo">Empowering the Nation</div>
+            <nav><!--This element represents a section of a page whose purpose is to provide navigation links-->
+                <ul class="nav-menu"><!-- represents an unordered list which is a block element -->
+                    <li><a href="#home">Home</a></li><!-- li element defines a list item and a is an anchor element that creates a hyperlink to other web pages-->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#register">Register</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons"><!-- div is a block element that is used to group elements for styling purposes -->
+                <a href="" class="btn btn-login">Log In</a><!--a is an anchor element that creates a hyperlink to other web pages-->
+                <a href="" class="btn btn-register">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero"> <!-- section element defines a section in a document -->
+<!-- Code Attribution
+    Title: Semantic Elements
+    Author: HTML and CSS Guidebook
+    Date Accessed: 14 August 2025
+    Date published: 2024
+    Availability: https://htmlandcssguidebook.com/html/html5-semantic/#section
+-->
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Empower Your Future Through Education</h1> <!-- h1-h6 elements are used to define HTML headings with h1 being the highest or most important level and h6 the least -->
+                <p>Discover practical skills and knowledge that transform lives and build stronger communities across South Africa</p> <!-- p element defines a paragraph -->
+                <div class="hero-buttons">
+                    <a href="" class="btn btn-primary">Explore Courses</a>
+                    <a href="" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="screen-mock"></div>
+                <div class="screen-mock"></div>
+                <div class="screen-mock"></div>
+                <div class="screen-mock"></div>
+                <div class="screen-mock"></div>
+                <div class="screen-mock"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Mission -->
+    <section class="mission">
+        <div class="container">
+            <h2>Our Mission</h2> <!-- h1-h6 elements are used to define HTML headings with h1 being the highest or most important level and h6 the least -->
+            <p class="mission-text">At Empowering the Nation, we believe that education is a catalyst of personal and community development. Our mission is to provide accessible, quality education that equips individuals with practical skills for sustainable livelihoods.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Quality Education</h3> <!-- h1-h6 elements are used to define HTML headings with h1 being the highest or most important level and h6 the least -->
+                    <p>Our courses are designed by industry experts, you receive relevant, up-to-date knowledge and skills that make you competitive in the job market.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Community Impact</h3>
+                    <p>We empower individuals to become agents of change in their communities, creating a ripple effect of positive transformation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Recognized Certification</h3>
+                    <p>Get certificates that are recognized by employers and institutions, enhancing your employability and career prospects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Offerings -->
+    <section class="courses">
+        <div class="container">
+            <h2>Our Course Offerings</h2>
+            <p class="courses-subtitle">Choose from our range of practical courses designed to equip you with valuable skills for personal growth and employment opportunities.</p>
+            
+            <div class="course-cards">
+                <div class="course-card">
+                    <div class="course-header">
+                        <span class="course-icon">📖</span>
+                        <h3>6-Week Courses</h3>
+                    </div>
+                    <p class="course-description">Perfect for those looking to quickly acquire specific skills. These intensive courses focus on practical knowledge you can immediately apply.</p>
+                    <ul class="course-list">
+                        <li>Child Minding</li>
+                        <li>Basic Cooking</li>
+                        <li>Garden Maintenance</li>
+                    </ul>
+                    <a href="" class="explore-btn">Explore 6-Week Courses</a>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-header">
+                        <span class="course-icon">📘</span>
+                        <h3>6-Month Courses</h3>
+                    </div>
+                    <p class="course-description">Comprehensive programs that provide in-depth knowledge and skills, preparing you for professional opportunities or entrepreneurship.</p>
+                    <ul class="course-list">
+                        <li>First Aid Certification</li>
+                        <li>Professional Sewing</li>
+                        <li>Landscaping & Design</li>
+                        <li>Life Skills Development</li>
+                    </ul>
+                    <a href="" class="explore-btn">Explore 6-Month Courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculate Your Course Investment -->
+    <section class="calculator">
+        <div class="container">
+            <div class="calculator-grid">
+                <div>
+                    <h2>Calculate Your Course Investment</h2>
+                    <p class="calculator-text">We believe in transparent pricing and affordable education. Use our calculator to estimate the cost of your chosen course, including available subsidies and payment plans.</p>
+                    <ul class="calculator-features">
+                        <li>Flexible payment options</li>
+                        <li>Subsidies for qualifying applicants</li>
+                        <li>Group enrollment discounts</li>
+                    </ul>
+                    <a href="" class="btn btn-primary">Try Our Calculator</a>
+                </div>
+                <div class="calculator-visual">
+                    <div class="calculator-circle">
+                        <div class="calculator-inner">💰</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="success">
+        <div class="container">
+            <h2>Success Stories</h2>
+            <p class="success-subtitle">Hear from our graduates who have transformed their lives through our educational programs.</p>
+            
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="testimonial-header">
+                        <div class="avatar">TM</div>
+                        <div class="testimonial-info">
+                            <h4>Thabo Molefe</h4>
+                            <p>Landscaping Graduate</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"The landscaping course gave me practical skills that I immediately put to use. I now run my own landscaping business and have created jobs for three other people in my community."</p>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-header">
+                        <div class="avatar">ND</div>
+                        <div class="testimonial-info">
+                            <h4>Neli Douglas</h4>
+                            <p>Sewing Program Alumni</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"After completing the sewing course, I started making school uniforms for local children. The skills I learned not only helped me support my family but also gave me confidence as an entrepreneur."</p>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-header">
+                        <div class="avatar">LK</div>
+                        <div class="testimonial-info">
+                            <h4>Laveli Kumar</h4>
+                            <p>Child Minding Certificate Holder</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"The child minding course opened doors for me. I now work at a reputable daycare center and am pursuing further studies in early childhood development."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ready to Start Your Journey -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Journey?</h2>
+            <p>Join thousands of South Africans who have transformed their lives through our practical education programs.</p>
+            <div class="cta-buttons">
+                <a href="" class="btn btn-white">Browse Courses</a>
+                <a href="" class="btn btn-outline-white">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer> <!-- The footer element represents a footer for its nearest sectioning content or sectioning root element -->
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-logo">Empowering the Nation</div>
+                    <p class="footer-description">Transforming South African lives and communities through accessible, practical education that creates sustainable opportunities for personal and economic growth.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Courses</a></li>
+                        <li><a href="">Register</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Student Portal</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Our Courses</h3>
+                    <ul>
+                        <li><a href="">6-Week Courses</a></li>
+                        <li><a href="">6-Month Courses</a></li>
+                        <li><a href="">First Aid</a></li>
+                        <li><a href="">Cooking</a></li>
+                        <li><a href="">Life Skills</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Phone: +27 11 234 5678</li>
+                        <li>Email: info@empoweringthenation.co.za</li>
+                        <li>Address: 123 Main Street, Sandton</li>
+                        <li>Empowering the Nation, 2146</li>
+                        <li>Hours: Mon-Fri 8:00 AM - 5:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Empowering the Nation. All rights reserved. | Privacy Policy | Terms of Service | Cookie Policy</p> <!-- &copy; is a special character that represents the copyright symbol -->
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<!-- References:
+
+   - The Independent Institute of Education, 2025. Web Development (Introduction) [WEDE5020]. nt. [online via internal VLE] The Independent Institute of Education. Available at:< https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7B2D7589E9-374B-43DE-9596-EF35D83EBD02%7D&file=WEDE5020MM.docx&action=default&mobileredirect=true > [Accessed 04 September 2025].
+
+   - HTML and CSS Guidebook, 2024. Sematic Elements. [online] Available at: < https://htmlandcssguidebook.com/html/html5-semantic/#div > [Accessed 04 September 2025].
+
+   - W3Schools, 2024. HTML Footer Tag. [online] Available at: < https://www.w3schools.com/tags/tag_footer.asp > [Accessed 04 September 2025].
+
+   - W3Schools, 2024. HTML div Tag. [online] Available at: < https://www.w3schools.com/tags/tag_div.asp > [Accessed 04 September 2025].
+
+   - W3Schools, 2024. HTML Nav Tag. [online] Available at: < https://www.w3schools.com/tags/tag_nav.asp > [Accessed 04 September 2025].
+
+   - W3Schools, 2024. HTML Header Tag. [online] Available at: < https://www.w3schools.com/tags/tag_header.asp > [Accessed 04 September 2025].
+
+   - W3Schools, 2024. HTML Main Tag. [online] Available at: < https://www.w3schools.com/tags/tag_main.asp > [Accessed 04 September 2025].
+
+   - W3Schools, 2024. HTML Symbols. [online] Available at: < https://www.w3schools.com/html/html_symbols.asp>[Accessed 04 September 2025].
+
+    - MDN Web Docs, 2024. HTML element reference. [online] Available at: < https://developer.mozilla.org/en-US/docs/Web/HTML/Element > [Accessed 04 September 2025].
+-->
